@@ -1,0 +1,52 @@
+{ 
+  "title": "What is your spirit animal",
+  "description": "If you were not a human, you would probably be this ... ",
+  "questions": 
+      [
+        {
+          "text": "Which of these is the most awesome?",
+          "answers": [
+            {
+              "name":   "Mountains",
+              "imgurl": "http://i.imgur.com/2qp9aLm.jpg",
+              "rank":   7
+            },
+            {
+              "name":   "NASA",
+              "imgurl": "http://i.imgur.com/K6YSi9a.jpg",
+              "rank":   6
+            },
+            {
+              "name":   "Backpacking",
+              "imgurl": "http://i.imgur.com/ZqquwJg.jpg",
+              "rank":   3
+            },
+            {
+              "name":   "California",
+              "imgurl": "http://i.imgur.com/hJf4hxa.jpg",
+              "rank":   2
+            },
+            {
+              "name":   "Beach",
+              "imgurl": "http://i.imgur.com/CnRs8WF.jpg",
+              "rank":   8
+            },
+            {
+              "name":   "Beer",
+              "imgurl": "http://i.imgur.com/SpdToDb.jpg",
+              "rank":   4
+            },
+            {
+              "name":   "Chess",
+              "imgurl": "http://i.imgur.com/rM6j6ls.jpg",
+              "rank":   5
+            },
+            {
+              "name":   "Bikes",
+              "imgurl": "http://i.imgur.com/OLDWBF8.jpg",
+              "rank":   1
+            }
+          ]
+        }
+      ]
+}
