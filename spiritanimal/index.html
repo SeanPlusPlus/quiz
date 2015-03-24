@@ -30,13 +30,13 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-md-3 col-sm-6 hero-feature" ng-repeat="a in q.answers">
+        <div class="col-md-3 col-sm-6 hero-feature" ng-repeat="a in q.answers track by $index">
           <div class="thumbnail">
             <img ng-src="{{ a.imgurl }}">
             <div class="caption">
               <p>{{ a.answer }}</p>
               <p>
-                <a ng-click="ans(q, a)" href="" class="btn btn-default">
+                <a ng-click="ans(q, a, $index)" href="" class="btn btn-{{ a.status || 'default' }}">
                   <i class="fa fa-check-square"></i>
                 </a>
               </p>
